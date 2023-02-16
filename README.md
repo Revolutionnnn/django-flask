@@ -1,9 +1,9 @@
-API de Estudiantes
+<h1>API de Estudiantes</h1>
 Este es un proyecto de una API para administrar información de estudiantes, desarrollada con Django Rest Framework y PostgresSQL como base de datos.
 
 El frontend fue creado con Bootstrap 5 y Flask, permitiendo realizar operaciones CRUD de manera sencilla. Además, se utiliza JWT Token para proteger las rutas y asegurar la seguridad de la información.
 
-Instalación
+<h2>Instalación</h2>
 Para instalar y ejecutar la aplicación en su máquina local, siga los siguientes pasos:
 
 Clonar el repositorio: git clone https://github.com/username/repo.git.
@@ -22,7 +22,7 @@ DELETE /api/estudiantes/<id>/: Elimina un estudiante.
 Autenticación y Seguridad
 La API utiliza JWT Token para proteger las rutas y asegurar la seguridad de la información. Para acceder a los endpoints protegidos, es necesario enviar un token válido en el encabezado de la solicitud.
 
-Contribuir
+<h2>Contribui</h2>
 Si desea contribuir al proyecto, puede hacer un fork del repositorio, realizar los cambios y enviar un pull request. Se agradecen todas las contribuciones.
 
 PD: Las secret key y los datos de autenticacion fueron eliminados para que cualquier persona puedo crear los suyos propios
