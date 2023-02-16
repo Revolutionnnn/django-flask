@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<div class="row">
+  {% for estudiantes in data%}
+  <div class="col-md-3 mb-3">
+    <div class="card">
+      <img class="card-img-top" src='{{ estudiantes["FotoDelEstudiante"] }}' alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{estudiantes['PrimerNombre'] +' '+estudiantes['SegundoNombre'] + " "+estudiantes['PrimerApellido'] +' '+estudiantes['SegundoApellido']}}</h5>
+        <p class="card-text">Fecha de nacimiento: {{ estudiantes['FechaDeNacimiento']}}</p>
+        <p class="card-text">Grado: {{ estudiantes['GradoCursante']}}</p>
+        <a href="actualizar/{{ estudiantes['id']}}" class="btn btn-primary">Actualizar</a>
+        <a href="eliminar/{{ estudiantes['id']}}"  class="btn btn-danger">Eliminar</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

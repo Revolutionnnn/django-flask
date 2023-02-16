@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="container">
+      <h1>Actualizar estudiantes</h1>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="inputPrimerNombre">Primer nombre</label>
+          <input type="text" class="form-control" id="inputPrimerNombre" name="primer_nombre" value="{{data['PrimerNombre']}}">
+        </div>
+        <div class="form-group">
+          <label for="inputSegundoNombre">Segundo nombre</label>
+          <input type="text" class="form-control" id="inputSegundoNombre" name="segundo_nombre" value="{{data['SegundoNombre']}}">
+        </div>
+        <div class="form-group">
+          <label for="inputPrimerApellido">Primer apellido</label>
+          <input type="text" class="form-control" id="inputPrimerApellido" name="primer_apellido" value="{{data['PrimerApellido']}}">
+        </div>
+        <div class="form-group">
+          <label for="inputSegundoApellido">Segundo apellido</label>
+          <input type="text" class="form-control" id="inputSegundoApellido" name="segundo_apellido" value="{{data['SegundoApellido']}}">
+        </div>
+        <div class="form-group">
+          <label for="inputFechaNacimiento">Fecha de nacimiento</label>
+          <input type="date" class="form-control" id="inputFechaNacimiento" name="fecha_nacimiento" value="{{data['FechaDeNacimiento']}}>
+        </div>
+        <div class="form-group" >
+          <label for="inputGrado">Grado</label >
+          <select class="form-control" id="inputGrado" name="grado" >
+          <option value="1">Primero</option>
+          <option value="2">Segundo</option>
+          <option value="3">Tercero</option>
+          <option value="4">Cuarto</option>
+          <option value="5">Quinto</option>
+          <option value="6">Sexto</option>
+          <option value="7">Séptimo</option>
+          <option value="8">Octavo</option>
+          <option value="9">Noveno</option>
+          <option value="10">Décimo</option>
+          <option value="11">Undécimo</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inputImagen">Imagen</label>
+          <input type="file" class="form-control-file" id="inputImagen" name="imagen" >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+{% endblock %}
