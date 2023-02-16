@@ -39,4 +39,4 @@ La API utiliza JWT Token para proteger las rutas y asegurar la seguridad de la i
 Si desea contribuir al proyecto, puede hacer un fork del repositorio, realizar los cambios y enviar un pull request. Se agradecen todas las contribuciones.
 
   
-PD: Las secret key y los datos de autenticacion fueron eliminados para que cualquier persona puedo crear los suyos propios
+PD: Las secret key y los datos de autenticacion fueron eliminados para que cualquier persona pueda crear los suyos propios
