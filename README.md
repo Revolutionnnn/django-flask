@@ -38,5 +38,11 @@ La API utiliza JWT Token para proteger las rutas y asegurar la seguridad de la i
 <h2>Contribuir</h2>
 Si desea contribuir al proyecto, puede hacer un fork del repositorio, realizar los cambios y enviar un pull request. Se agradecen todas las contribuciones.
 
+![home](https://github.com/Revolutionnnn/django-flask/blob/main/imagenes/Home.png)
+![Formulario](https://github.com/Revolutionnnn/django-flask/blob/main/imagenes/Formulario.png)
+![Informacion de estudiantes](https://github.com/Revolutionnnn/django-flask/blob/main/imagenes/Personas.png)
+![Actualizar usuario](https://github.com/Revolutionnnn/django-flask/blob/main/imagenes/Actualizar.png)
+
+
   
 PD: Las secret key y los datos de autenticacion fueron eliminados para que cualquier persona pueda crear los suyos propios
